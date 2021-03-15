@@ -5,23 +5,32 @@ import "./style.css";
 function Header() {
     return (
         <div className="navbar navbar-expand-lg navbar-light bg-white">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
             </button>
-                <div class="collapse navbar-collapse ml-auto" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">About </a>
+                <div className="collapse navbar-collapse ml-auto" id="navbarNav">
+                    <ul className="navbar-nav ml-auto">
+                        <li className="nav-item">
+                            <Link
+                                to="/index"
+                                className={window.location.pathname==="/index" ? "nav-link active" : "nav-link"}>About 
+                            </Link>
                         </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        <li className="nav-item">
+                            <Link 
+                                to="/portfolio"
+                                className={window.location.pathname==="/portfolio" ? "nav-link active" : "nav-link"}>Portfolio
+                            </Link>
                         </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <li classname="nav-item">
+                            <Link 
+                                to="/contact"
+                                className={window.location.pathname==="/contact" ? "nav-link active" : "nav-link"}>Contact
+                            </Link>
                         </li>
-                        <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
-                        </li>
+                        {/* <li className="nav-item">
+                            <Link classname="nav-link disabled" to="#" tabindex="-1" aria-disabled="true"></Link>
+                        </li> */}
                     </ul>
                 </div>
 
