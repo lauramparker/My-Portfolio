@@ -1,3 +1,14 @@
 nav.navbar.navbar-default {
-    margin-bottom: 0;
+    margin-bottom: 0px;
   }
+
+#navbarNav {
+    height: 80px
+}
+
+header {
+    min-height: 100px;
+    border: 6px solid #e98074;
+    background-color: #e98074;
+    position: relative;
+}
