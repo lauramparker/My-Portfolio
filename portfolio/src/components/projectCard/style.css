@@ -3,8 +3,8 @@
     background-position: center;
     background-clip: content-box;
     border: 6px solid white;
-    height: 400px;
-    width: 400px;
+    height: 700px;
+    width: 700px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     position: relative;
     margin: 0 auto;
@@ -25,9 +25,8 @@
     background-position: center;
     background-clip: content-box;
     border: 6px solid white;
-    height: 400px;
-    width: 400px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    height: 350px;
+    width: 350px;
     position: relative;
     margin: 0 auto;
     margin-left: 30px;
