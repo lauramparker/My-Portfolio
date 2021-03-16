@@ -13,7 +13,7 @@ function About() {
                 <Row>
                     <Col>
                         <div className="media">
-                            <img src="images/LMPheadshot.png" alt="Laura M. Parker headshot"></img>
+                            <img src="../portfolio/public/images/LMPheadshot.png" alt="Laura M. Parker headshot"></img>
                             
                         </div>
                     
@@ -29,7 +29,7 @@ function About() {
                             At this stage of life and career, I am interested in opportunities to grow my experience as a full-stack developer, with hopes of leading an innovative product development team in the future.    
                             Outside of work, I enjoy playing with my two young children, gardening, playing tennis, and exploring our beautiful local and National Parks.</p>
 
-                            <div class="card float-right" style="width: 24rem;">
+                            <div class="card float-right">
                                     <div class="card-header">
                                     <small><strong>Please Contact Me:</strong></small>
                                     </div>
@@ -39,7 +39,7 @@ function About() {
                                       <li class="list-group-item"><small><a href>www.linkedin.com/in/laura-p-5a3bbb198/</a></small></li>
                                       <li class="list-group-item"><small><a href>https://github.com/lauramparker</a></small></li>
                                       <li class= "list-group-item bg-light"><small><strong>Download My Resume</strong></small>
-                                          <a href="./images/LMP-Resume.pdf" download>
+                                          <a href="../portfolio/public/images/LMP-Resume.pdf" download>
                                             <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-down-circle-fill" fill="#e98074" xmlns="http://www.w3.org/2000/svg">
                                                 <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
                                               </svg>
