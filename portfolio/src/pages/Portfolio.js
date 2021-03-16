@@ -55,11 +55,11 @@ function Portfolio() {
                         />
 
                         <ProjectCard
-                        title={projects[0].title}
-                        image={projects[0].image}
-                        description={projects[0].description}
-                        repo={projects[0].repo}
-                        deploy={projects[0].deploy}
+                        title={projects[5].title}
+                        image={projects[5].image}
+                        description={projects[5].description}
+                        repo={projects[5].repo}
+                        deploy={projects[5].deploy}
                         />
                     </Col>
                 </Row>       

@@ -19,7 +19,7 @@ const Contact = () => {
 
     return (
         <div>
-            <Header></Header>
+            <Header />
              <form onSubmit={handleSubmit}>
             <Container className = "mt-3">
             <Row className="form-group">
@@ -60,7 +60,7 @@ const Contact = () => {
                     </button>
             </Container>
             </form>
-            <Footer></Footer>
+            <Footer />
         </div>
 
     )

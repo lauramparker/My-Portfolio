@@ -8,7 +8,7 @@ import Col from "../components/Col";
 function About() {
     return (
         <div>
-            <Header>Laura M. Parker</Header>
+            <Header />
             <Container style={{ marginTop: 30 }}>
                 <Row>
                     <Col size="col-320px">
@@ -32,7 +32,7 @@ function About() {
                     </Col>
                 </Row>
             </Container>
-            <Footer></Footer>
+            <Footer />
         </div>
     )
 }
