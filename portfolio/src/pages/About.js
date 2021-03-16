@@ -14,7 +14,7 @@ function About() {
                 <Row>
                     <Col>
                         <div className="media">
-                            <img src="../public/images/LMPheadshot.png" alt="Laura M. Parker headshot"></img>
+                            <img src="./images/LMPheadshot.png" alt="Laura M. Parker headshot"></img>
                         </div>
                     
                     </Col>
@@ -39,7 +39,7 @@ function About() {
                                       <li class="list-group-item"><Link><small><a href>www.linkedin.com/in/laura-p-5a3bbb198/</a></small></ Link></li>
                                       <li class="list-group-item"><Link><small><a href>https://github.com/lauramparker</a></small></Link></li>
                                       <li class= "list-group-item bg-light"><small><strong>Download My Resume</strong></small>
-                                      <Link><a href="../public/images/LMP-Resume.pdf" download>
+                                      <Link><a href="./images/LMP-Resume.pdf" download>
                                             <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-down-circle-fill" fill="#e98074" xmlns="http://www.w3.org/2000/svg">
                                                 <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
                                               </svg>
