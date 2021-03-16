@@ -7,9 +7,14 @@ body {
   background-color: #e98074;
 }
 
-h1,h2,h3,h4,h5,h6,small {
+h1,h2,h3,h4,h5,small {
     font-family: 'Raleway', sans-serif;
     color: slategray;
+}
+
+.btn {
+  color: white;
+  background-color: #8e8d8a
 }
 
 button {
