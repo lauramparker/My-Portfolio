@@ -15,7 +15,6 @@ function About() {
                     <Col>
                         <div className="media">
                             <img src="../public/images/LMPheadshot.png" alt="Laura M. Parker headshot"></img>
-                            
                         </div>
                     
                     </Col>
