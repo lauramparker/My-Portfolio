@@ -24,10 +24,10 @@ const Contact = () => {
             <Container className = "mt-3">
                 <Row>
                     <Col>
-                    <h4>Contact</h4>
+                    <h4 className="ml-2">Contact</h4>
                     </Col>
                 </Row>
-            <Row className="form-group">
+            <Row className="form-group px-3">
                 <Col>
                     <input
                     className="form-control"
@@ -38,7 +38,7 @@ const Contact = () => {
                     />
                 </Col>
             </Row>
-            <Row className="form-group">
+            <Row className="form-group px-3">
                 <Col>
                     <input
                     className="form-control"
@@ -49,7 +49,7 @@ const Contact = () => {
                     />
                 </Col>
             </Row>
-            <Row className="form-group">
+            <Row className="form-group px-3">
                 <Col>
                     <input
                     className="form-control"
@@ -60,7 +60,7 @@ const Contact = () => {
                     />
                 </Col>
             </Row>
-                    <button className="btn mb-3" type="submit">
+                    <button className="btn btn-secondary" type="submit">
                     Submit
                     </button>
             </Container>
