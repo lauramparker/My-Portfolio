@@ -1,42 +1,42 @@
 [
     {
         "title": "Bucket List",
-        "image": "https://placeholder.com/350",
+        "image": "images/Bucket List.png",
         "description": "description",
         "repo": "https://github.com/lauramparker/TeamProject2",
         "deploy": "https://travel-log-project.herokuapp.com"
     },
     {
         "title": "MVC - Hamburger",
-        "image": "https://placeholder.com/350",
+        "image": "images/MVP Hamburger.png",
         "description": "description",
         "repo": "https://github.com/lauramparker/MVC-Hamburger",
         "deploy": "https://vast-peak-78616.herokuapp.com/"
     },
     {
         "title": "Weather Dashboard",
-        "image": "https://placeholder.com/350",
+        "image": "images/Weather Dashboard.png",
         "description": "description",
         "repo": "https://github.com/lauramparker/Server-Side-APIs-Weather-Dashboard-BootCamp6",
         "deploy": "https://lauramparker.github.io/Server-Side-APIs-Weather-Dashboard-BootCamp6/"
     },
     {
         "title": "Work Day Scheduler",
-        "image": "https://placeholder.com/350",
+        "image": "images/Workday Scheduler.png",
         "description": "description",
         "repo": "https://github.com/lauramparker/Third-Party-API-s-Work-Day-Scheduler-BootCamp5/",
         "deploy": "https://lauramparker.github.io/Third-Party-API-s-Work-Day-Scheduler-BootCamp5/"
     },
     {
         "title": "Brewfinder",
-        "image": "https://placeholder.com/350",
+        "image": "images/Brewfinder Load.png",
         "description": "description",
         "repo": "https://github.com/jesusefraingonzalez/brewfinder/",
         "deploy": "https://jesusefraingonzalez.github.io/brewfinder/"
     },
     {
         "title": "Budget Tracker",
-        "image": "https://placeholder.com/350",
+        "image": "images/budgetREADME.png",
         "description": "description",
         "repo": "https://github.com/lauramparker/budget-tracker",
         "deploy": "https://immense-basin-97081.herokuapp.com/"
