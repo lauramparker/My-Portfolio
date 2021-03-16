@@ -1,14 +1,13 @@
 .footer {
-    min-height: 100px;
+    min-height: 60px;
     background:#e98074;
     position: relative;
   }
+
+h6 {
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 30px;
+    color: white
+}
   
-  .footer span {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 3px;
-    background: #e98074;
-  }
