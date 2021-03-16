@@ -6,9 +6,8 @@ nav.navbar.navbar-default {
     height: 80px
 }
 
-header {
-    min-height: 100px;
-    border: 6px solid #e98074;
+.header {
+    height: 80px;    
     background-color: #e98074;
     position: relative;
 }
