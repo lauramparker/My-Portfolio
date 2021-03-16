@@ -5,7 +5,7 @@ function ProjectCard(props) {
     return (
         <div className="media ml-4">
             <span className="border border-secondary">
-                <img className = "align-self-start" src={props.image} alt={props.alt}></img>
+                <img className = "align-self-start" src={props.image}></img>
             </span>
             <div className="media-body ml-3 mr-3">
                 <h5 className="mt-0"><strong>{props.title}</strong></h5>
