@@ -22,8 +22,13 @@ const Contact = () => {
             <Header />
              <form onSubmit={handleSubmit}>
             <Container className = "mt-3">
+                <Row>
+                    <Col>
+                    <h4>Contact</h4>
+                    </Col>
+                </Row>
             <Row className="form-group">
-                <Col size = "320-px">
+                <Col>
                     <input
                     className="form-control"
                     type="text"
@@ -34,7 +39,7 @@ const Contact = () => {
                 </Col>
             </Row>
             <Row className="form-group">
-                <Col size = "320-px">
+                <Col>
                     <input
                     className="form-control"
                     type="text"
@@ -45,7 +50,7 @@ const Contact = () => {
                 </Col>
             </Row>
             <Row className="form-group">
-                <Col size = "320-px">
+                <Col>
                     <input
                     className="form-control"
                     type="text"
@@ -55,7 +60,7 @@ const Contact = () => {
                     />
                 </Col>
             </Row>
-                    <button className="btn btn-success" type="submit">
+                    <button className="btn mb-3" type="submit">
                     Submit
                     </button>
             </Container>
