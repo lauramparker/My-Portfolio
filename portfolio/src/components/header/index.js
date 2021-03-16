@@ -5,6 +5,8 @@ import "./style.css";
 function Header() {
     return (
         <div className="navbar navbar-expand-lg navbar-light bg-white">
+            <div className="navbar-brand"><h3>Laura M. Parker</h3></div>
+        <div className="navbar navbar-expand-lg navbar-light bg-white">
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
@@ -33,6 +35,7 @@ function Header() {
                         </li> */}
                     </ul>
                 </div>
+        </div>
         </div>
     )
 }
