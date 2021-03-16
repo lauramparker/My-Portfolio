@@ -4,7 +4,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   min-height: 75rem;
   padding-top: 4.5rem;
-  background-color: #e98074;
+  background-color: white;
 }
 
 h1,h2,h3,h4,h5,small {
@@ -12,15 +12,6 @@ h1,h2,h3,h4,h5,small {
     color: slategray;
 }
 
-.btn {
-  color: white;
-  background-color: #8e8d8a
-}
-
-button {
-  color: white;
-  background-color: #8e8d8a
-}
 
 .name {
   font-family: 'Raleway', sans-serif;
