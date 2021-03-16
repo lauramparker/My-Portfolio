@@ -9,10 +9,11 @@ function About() {
     return (
         <div>
             <Header />
-            <Container style={{ marginTop: 30 }}>
+            <Container>
                 <Row>
-                    <Col size="col-320px">
+                    <Col>
                         <div className="media">
+                            <img src="images/LMPheadshot.png" alt="Laura M. Parker headshot"></img>
                             
                         </div>
                     
