@@ -12,9 +12,9 @@ function About() {
             <Header />
             <Container>
                 <Row>
-                    <Col>
+                    <Col size="md-8">
                         <div className="media">
-                            <img src="./images/LMPheadshot.png" alt="Laura M. Parker headshot"></img>
+                            <img src="https://lauramparker.github.io/My-Portfolio/images/LMPheadshot.png"  alt="Laura M. Parker headshot" style = {{ width: "250-px", height: "350-px" }}></img>
                         </div>
                     
                     </Col>

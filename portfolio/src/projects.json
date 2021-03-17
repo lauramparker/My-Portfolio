@@ -1,42 +1,42 @@
 [
     {
         "title": "Bucket List",
-        "image": "./images/Bucket List.png",
+        "image": "https://lauramparker.github.io/My-Portfolio/images/Bucket%20List.png",
         "description": "A Node.js application, deployed through Heroku, that allows the user to 1) create travel reviews capturing their own travel experiences, and, 2) search travel reviews for planning future trips. To use the site, users must establish login credentials with an email and password. These credentials are stored and authenticated using Passport. To enhance responsiveness to the user, the application leverages elasticsearch to quickly return search results, matching the search term within the text fields for any of the fields available in the saved review.",
         "repo": "https://github.com/lauramparker/TeamProject2",
         "deploy": "https://travel-log-project.herokuapp.com"
     },
     {
         "title": "MVC - Hamburger",
-        "image": "./images/MVC Hamburger.png",
+        "image": "https://lauramparker.github.io/My-Portfolio/images/MVC%20Hamburger.png",
         "description": "This project delivers a Node.js application with a Model-View-Control structure.  The app, called 'eat-da-burger', logs and updates a list of user-entered hamburger's. When a burger is added to the list, it appears on the left side list of burgers 'Not Yet Devoured'; and, when the 'Devour It' button is clicked, the named burger moves to the 'Devoured It' list on the right-side. The application uses express to create the backend routes and link the backend and frontend; and, uses handlebars to create the view templates.",
         "repo": "https://github.com/lauramparker/MVC-Hamburger",
         "deploy": "https://vast-peak-78616.herokuapp.com/"
     },
     {
         "title": "Weather Dashboard",
-        "image": "./images/Weather Dashboard.png",
+        "image": "https://lauramparker.github.io/My-Portfolio/images/Weather%20Dashboard.png",
         "description": "This project uses Ajax and Jquery functionality to display a wather dashboard for a user-inputed city. The project utilizes Ajax to call data from Open Weather API (3 different calls are made when the search button is clicked). JQuery functions dynamically created the elements listed below on the dashboard. If a user wants to see a previous search, they can click on the name of the city searched in the left menu under the search bar. When this happens, the application retrieves that city's data from local storage and displays it.",
         "repo": "https://github.com/lauramparker/Server-Side-APIs-Weather-Dashboard-BootCamp6",
         "deploy": "https://lauramparker.github.io/Server-Side-APIs-Weather-Dashboard-BootCamp6/"
     },
     {
         "title": "Work Day Scheduler",
-        "image": "./images/Workday Scheduler.png",
+        "image": "https://lauramparker.github.io/My-Portfolio/images/Workday%20Scheduler.png",
         "description": "This project usees JQuery and some basic Javascript to generate a simply hourly schedule to use for work-day organization (9am-6pm). The project utilizes JQuery to create html elements and append that elements to the initial hourblock rows. Moment.js is also utilized to enable accurate date and time rendering.",
         "repo": "https://github.com/lauramparker/Third-Party-API-s-Work-Day-Scheduler-BootCamp5/",
         "deploy": "https://lauramparker.github.io/Third-Party-API-s-Work-Day-Scheduler-BootCamp5/"
     },
     {
         "title": "Brewfinder",
-        "image": "./images/Brewfinder Load.png",
+        "image": "https://lauramparker.github.io/My-Portfolio/images/Brewfinder%20Load.png",
         "description": "Brewfinder is a simple application that returns a list of local breweries based on a user's zipcode.  When the application opens, the user is instructed to enter a zipcode to find local breweries.  A list of breweries within that zipcode appears below.  The brewery listings include name, type (see types list below), address, phone, and website (if available). In addition to basic location information, Brewfinder identifies each type of brewery from the options below. This is one of the more unique features of the application enabling brew-enthusiats to learn about small and niche operators in their area.",
         "repo": "https://github.com/jesusefraingonzalez/brewfinder/",
         "deploy": "https://jesusefraingonzalez.github.io/brewfinder/"
     },
     {
         "title": "Budget Tracker",
-        "image": "./images/budgetREADME.png",
+        "image": "https://lauramparker.github.io/My-Portfolio/images/budgetREADME.png",
         "description": "This project delivers a progressive web application-- Budget Tracker -- that allows a user to enter simple budget transactions and charts those transactions. The application caches transactions when the user is offline and the database updated when the user is online again, thus retaining both their online and offline entries. A service-worker.js file and manifest file are included in the app to allow for the offline functionality, and indexedDB is used to store client side data. The application database is on MongoDB Cloud Atlas.",
         "repo": "https://github.com/lauramparker/budget-tracker",
         "deploy": "https://immense-basin-97081.herokuapp.com/"
