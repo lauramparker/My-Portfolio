@@ -1,10 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Container from "../components/container";
+import { Col, Row, Container } from "react-bootstrap";
 import Header from "../components/header";
 import Footer from "../components/footer";
-import Row from "../components/Row";
-import Col from "../components/Col";
 
 function About() {
     return (

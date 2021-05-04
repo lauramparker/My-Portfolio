@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import Container from "../components/container";
+import { Col, Row, Container } from "react-bootstrap";
 import Header from "../components/header";
 import Footer from "../components/footer";
-import Row from "../components/Row";
-import Col from "../components/Col";
+
 
 const Contact = () => {
     const [name, setName] = useState();
