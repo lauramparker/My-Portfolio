@@ -12,7 +12,6 @@ h1,h2,h3,h4,h5,small {
     color: slategray;
 }
 
-
 .name {
   font-family: 'Raleway', sans-serif;
   color: slategray;
@@ -39,16 +38,50 @@ li {
   color: #8e8d8a;
 }
 
-.border {
-  color: slategray
-}
 
-img {
-  height: 350px;
-  width: 350px;
+.img {
+  height: 300px;
+  width: 300px;
+  display: block;
+  border-style: solid;
+  border-width: 1px;
+  border-color: slategrey;
+  align-self: center;
 }
 
 #headshot {
-  height: 250px;
+  height: 275px;
   width: 200px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 20px;
+  display: block;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
+  border-radius: 5px;
 }
+
+.paragraph {
+  width: 80%;
+  margin: 20px;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 320px);
+  grid-template-rows: repeat(auto-fit, 1fr);
+  grid-gap: 10px;
+}
+
+.project {
+  height: 750px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+

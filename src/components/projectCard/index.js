@@ -1,19 +1,17 @@
 import React from "react";
-import "./style.css";
+import { Card } from "react-bootstrap";
 
 function ProjectCard(props) {
     return (
-        <div className="media ml-4">
-            <span className="border border-secondary">
-                <img className = "align-self-start" src={props.image} alt={props.alt}></img>
-            </span>
-            <div className="media-body ml-3 mr-3">
-                <h5 className="mt-0"><strong>{props.title}</strong></h5>
-                <p>{props.description}</p>
-                <p><small>The project repository can be found here: <a href="url">{props.repo}</a></small></p>
-                <p><small>The deployed project can be found here: <a href="url">{props.deploy}</a></small></p>
-            </div>
-        </div>
+        <Card className='project'>
+            <Card.Title style={{alignSelf: 'center', margin: 'auto'}}><h4>{props.title}</h4></Card.Title>
+            <Card.Img className='img' variant="top" src={props.image}/>
+            <Card.Body>
+                <Card.Text>{props.description}</Card.Text>
+                <Card.Link href={props.repo} style={{position:'absolute', bottom: '10px'}}><p><u>GitHub Repository</u></p></Card.Link>
+                <Card.Link href={props.deploy} style={{position:'absolute', right: '30px', bottom: '10px'}}><p><u>Deployed App</u></p></Card.Link>
+            </Card.Body>
+        </Card>
     );
 }
 
