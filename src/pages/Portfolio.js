@@ -15,11 +15,12 @@ function Portfolio() {
                         <div className="grid">
                             {projects.map(project => {
                                 return (
-                                    <div className="grid-div">
+                                    <div className="grid-div" key={project.repo}>
                                     <ProjectCard
                                         title={project.title}
                                         image={project.image}
                                         description={project.description}
+                                        technologies={project.technologies}
                                         repo={project.repo}
                                         deploy={project.deploy}
                                     />
