@@ -1,16 +1,16 @@
 [
     {
-        "title": "Bucket List",
+        "title": "Travel Journal",
         "image": "https://lauramparker.github.io/My-Portfolio/images/Bucket%20List.png",
-        "description": "A Node.js application that allows the user to 1) create travel reviews, and, 2) search travel reviews for planning future trips.",
-        "technologies": ["Express/Node.js", "SQL", "Passport (User Authentication)", "ElasticSearch"],
-        "repo": "https://github.com/lauramparker/TeamProject2",
-        "deploy": "https://travel-log-project.herokuapp.com"
+        "description": "A Node.js application that allows the user to create and save travel reviews (stored in SQL database), and, search reviews using Elasticsearch.",
+        "technologies": ["Express/Node.js", "SQL", "Passport (User Authentication)", "ElasticSearch", "Handlebars template engine"],
+        "repo": "https://github.com/lauramparker/Travel-Journal",
+        "deploy": "https://travel-journal-lmp.herokuapp.com/"
     },
     {
         "title": "MVC - Hamburger",
         "image": "https://lauramparker.github.io/My-Portfolio/images/MVC%20Hamburger.png",
-        "description": "This project delivers a Node.js application with a Model-View-Control structure.  The app logs and updates a list of user-entered hamburgers.",
+        "description": "This project delivers a Node.js application with a Model-View-Control structure.  The app logs and updates a list of user-entered hamburgers using handlebars template engine.",
         "technologies": ["Express/Node.js", "JQuery", "Ajax", "Handlebars template engine"],
         "repo": "https://github.com/lauramparker/MVC-Hamburger",
         "deploy": "https://vast-peak-78616.herokuapp.com/"
@@ -19,23 +19,23 @@
         "title": "Weather Dashboard",
         "image": "https://lauramparker.github.io/My-Portfolio/images/Weather%20Dashboard.png",
         "description": "A React application that calls data from OpenWeather API to display a wather dashboard for a user-inputed city.",
-        "technologies": ["React", "Ajax", "OpenWeather API", "Moment.js", "react-perfect-scrollbar NPM"],
-        "repo": "https://github.com/lauramparker/Server-Side-APIs-Weather-Dashboard-BootCamp6",
-        "deploy": "https://lauramparker.github.io/Server-Side-APIs-Weather-Dashboard-BootCamp6/"
+        "technologies": ["React", "OpenWeather API", "Axios", "Moment.js"],
+        "repo": "https://github.com/lauramparker/React-Weather-App",
+        "deploy": "https://my-react-weather-app-lmp.herokuapp.com/"
     },
     {
-        "title": "Work Day Scheduler",
+        "title": "Garden State",
         "image": "https://lauramparker.github.io/My-Portfolio/images/Workday%20Scheduler.png",
-        "description": "This project usees JQuery and some basic Javascript to generate a simply hourly schedule to use for work-day organization (9am-6pm).",
-        "technologies": ["Express/Node.js", "SQL", "Passport (User Authentication)", "ElasticSearch (dynamic, scalable search"],
-        "repo": "https://github.com/lauramparker/Third-Party-API-s-Work-Day-Scheduler-BootCamp5/",
-        "deploy": "https://lauramparker.github.io/Third-Party-API-s-Work-Day-Scheduler-BootCamp5/"
+        "description": "A React application with MongoDB database that allows users to create, save, and edit custom gardens.",
+        "technologies": ["React", "MongoDB", "Express/Node.js", "AuthO (User Authentication)"],
+        "repo": "https://github.com/lauramparker/GardenGrow_Project3",
+        "deploy": "https://github.com/lauramparker/GardenGrow_Project3"
     },
     {
         "title": "Brewfinder",
         "image": "https://lauramparker.github.io/My-Portfolio/images/Brewfinder%20Load.png",
         "description": "Brewfinder is a simple application that returns a list of local breweries based on a user's zipcode.",
-        "technologies": ["Express/Node.js", "SQL", "Passport (User Authentication)", "ElasticSearch"],
+        "technologies": ["Express/Node.js", "JQuery", "Ajax"],
         "repo": "https://github.com/jesusefraingonzalez/brewfinder/",
         "deploy": "https://jesusefraingonzalez.github.io/brewfinder/"
     },
