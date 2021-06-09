@@ -20,8 +20,8 @@ function About() {
                             In addition, I guided relationships and product alignment between content develop teams and third-party software companies.
                             In the years that followed, I worked as a consultant for both product development and implementation within the learning and development industry, leveraging my experience with digital learning solutions.
                             This included short-term contracts with market research firms, and longer engagements with start-up projects and organizations.</p>
-                            <p> More recently, I have invested in my own professional development and career transition.  I have acquired new skills in fullstack web development and marketing analytics.
-                            At this stage of life and career, I am interested in opportunities to grow my experience as a full-stack developer, with hopes of leading an innovative product development team in the future.
+                            <p> More recently, I have invested in developing my technical skills in programming and analytics.  I have acquired new skills in fullstack web development and marketing analytics.
+                            At this stage of life and career, I am interested in opportunities to grow my experience in technical roles, with hopes of leading an innovative product development team in the future.
                             Outside of work, I enjoy playing with my two young children, gardening, volunteering, and exploring our beautiful local and National Parks.</p>
 
                         </div>

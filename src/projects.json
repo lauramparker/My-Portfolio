@@ -11,7 +11,7 @@
         "title": "MVC - Hamburger",
         "image": "https://lauramparker.github.io/My-Portfolio/images/MVC%20Hamburger.png",
         "description": "This project delivers a Node.js application with a Model-View-Control structure.  The app logs and updates a list of user-entered hamburgers using handlebars template engine.",
-        "technologies": ["Express/Node.js", "JQuery", "Ajax", "Handlebars template engine"],
+        "technologies": ["Express/Node.js", "Ajax", "jQuery", "Handlebars template engine"],
         "repo": "https://github.com/lauramparker/MVC-Hamburger",
         "deploy": "https://vast-peak-78616.herokuapp.com/"
     },
