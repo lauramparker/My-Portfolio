@@ -11,7 +11,7 @@ function ProjectCard(props) {
                 <Row>
                     <Col>
                         <div className='technologies'>
-                            <ListGroup style={{ fontSize: '12px', textDecoration: 'bold', marginLeft: '20px' }}>Technologies Used: {(props.technologies).map(item => {
+                            <ListGroup>{(props.technologies).map(item => {
                                 return (
                                     <li key={item} style={{ fontSize: '12px' , marginLeft: '0px'}}>{item}</li>
                                 )
