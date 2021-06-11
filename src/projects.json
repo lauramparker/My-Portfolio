@@ -2,7 +2,7 @@
     {
         "title": "Travel Journal",
         "image": "https://lauramparker.github.io/My-Portfolio/images/Bucket%20List.png",
-        "description": "A Node.js application that allows the user to create and save travel reviews (stored in SQL database), and, search reviews using Elasticsearch.",
+        "description": "Travel Journal is a Node CRUD application with a MySQL database, Elasticsearch dynamic search engine, and Passport user authentication. Handlebars template engine and jQuery support the front-end rendering. The application allows a user to create, edit and dynamically search travel reviews.",
         "technologies": ["Express/Node.js", "SQL", "Passport (User Authentication)", "ElasticSearch", "Handlebars template engine"],
         "repo": "https://github.com/lauramparker/Travel-Journal",
         "deploy": "https://travel-journal-lmp.herokuapp.com/"
@@ -10,39 +10,39 @@
     {
         "title": "MVC - Hamburger",
         "image": "https://lauramparker.github.io/My-Portfolio/images/MVC%20Hamburger.png",
-        "description": "This project delivers a Node.js application with a Model-View-Control structure.  The app logs and updates a list of user-entered hamburgers using handlebars template engine.",
-        "technologies": ["Express/Node.js", "Ajax", "jQuery", "Handlebars template engine"],
+        "description": "MVC-Hamburger is a Node CRUD application with a MongoDB data schema and Handlebars template engine. This application was my first example of standard model-view-control architecture. It allows a user to create and track a list of favorite burgers.",
+        "technologies": ["Express/Node.js", "MongoDB", "Handlebars template engine"],
         "repo": "https://github.com/lauramparker/MVC-Hamburger",
         "deploy": "https://vast-peak-78616.herokuapp.com/"
     },
     {
-        "title": "Weather Dashboard",
+        "title": "React Weather App",
         "image": "https://lauramparker.github.io/My-Portfolio/images/Weather%20Dashboard.png",
-        "description": "A React application that calls data from OpenWeather API to display a wather dashboard for a user-inputed city.",
-        "technologies": ["React", "OpenWeather API", "Axios", "Moment.js"],
+        "description": "React-Weather-App is a redux-style React application featuring advanced React hooks, providers, react-bootstrap and a third-party API call to OpenWeatherMap API. The application allows a user to view current and forecasted weather data for a searched city (and re-render weather data for previously-searched cities.)",
+        "technologies": ["React", "OpenWeatherMap API", "Moment.js"],
         "repo": "https://github.com/lauramparker/React-Weather-App",
         "deploy": "https://my-react-weather-app-lmp.herokuapp.com/"
     },
     {
         "title": "Garden State",
         "image": "https://lauramparker.github.io/My-Portfolio/images/Workday%20Scheduler.png",
-        "description": "A React application with MongoDB database that allows users to create, save, and edit custom gardens.",
+        "description": "Garden-State is a MERN application featuring React redux, advanced React hooks, providers, MongoDB database, and React-bootstrap. The application allows a user to design gardens with specific dimensions by selecting plants from a database and assigning them to individual plots. Plant spacing is automatically calculated based on the selected plants.",
         "technologies": ["React", "MongoDB", "Express/Node.js", "AuthO (User Authentication)"],
-        "repo": "https://github.com/lauramparker/GardenGrow_Project3",
-        "deploy": "https://github.com/lauramparker/GardenGrow_Project3"
+        "repo": "https://github.com/lauramparker/Garden-State-LMP",
+        "deploy": "https://dashboard.heroku.com/apps/garden-state-lmp"
     },
     {
         "title": "Brewfinder",
         "image": "https://lauramparker.github.io/My-Portfolio/images/Brewfinder%20Load.png",
-        "description": "Brewfinder is a simple application that returns a list of local breweries based on a user's zipcode.",
-        "technologies": ["Express/Node.js", "JQuery", "Ajax"],
-        "repo": "https://github.com/jesusefraingonzalez/brewfinder/",
-        "deploy": "https://jesusefraingonzalez.github.io/brewfinder/"
+        "description": "Brewfinder is a simple JS application that uses Ajax to call a third-party API and retrieve listings of local breweries. Dynamic HTML elements are created using JQuery, and user favorites are stored with local storage.",
+        "technologies": ["Javascript", "HTML/CSS", "JQuery", "Ajax"],
+        "repo": "https://github.com/lauramparker/New-Brewfinder/",
+        "deploy": "https://lauramparker.github.io/New-Brewfinder/"
     },
     {
         "title": "Budget Tracker",
         "image": "https://lauramparker.github.io/My-Portfolio/images/budgetREADME.png",
-        "description": "This project delivers a progressive web application that allows a user to enter simple budget transactions (both offline and online) and charts those transactions.",
+        "description": "Budget-Tracker is a Node.js progressive web application that allows a user to enter budget expenses/income. The application uses a MongoDB database, CRUD routing with Express, and a service-worker to cache views and user entries offline, and syncing the data when the user is online again.",
         "technologies": ["Express/Node.js", "MongoDB", "IndexDB"],
         "repo": "https://github.com/lauramparker/budget-tracker",
         "deploy": "https://immense-basin-97081.herokuapp.com/"
