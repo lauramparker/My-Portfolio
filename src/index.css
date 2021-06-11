@@ -7,6 +7,12 @@ body {
   background-color: white;
 }
 
+footer {
+  min-height: 20px;
+  background:#e98074;
+  position: relative;
+}
+
 h1,h2,h3,h4,h5,h6,small {
     font-family: 'Raleway', sans-serif;
     color: slategray;
@@ -19,7 +25,7 @@ h1,h2,h3,h4,h5,h6,small {
 
 .titles {
   font-family: 'Raleway', sans-serif;
-  color: #8e8d8a;
+  color: slategrey;
 }
 
 p {
@@ -40,6 +46,20 @@ li {
   color: #8e8d8a;
   margin-left: 10%;
   list-style-type: none
+}
+
+button {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  padding: 5px;
+  background-color: white;
+  color: #e98074;
+  width: 120px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e98074;
+  border-radius: 5px;
+
 }
 
 
@@ -75,22 +95,26 @@ li {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 320px);
+  grid-template-columns: repeat(auto-fit, 360px);
   grid-template-rows: repeat(auto-fit, 1fr);
   grid-gap: 10px;
 }
 
 .project {
-  height: 600px;
+  height: 620px;
   border-style: solid;
   border-width: 1px;
   border-color: lightgray;
   border-radius: 5px;
   padding: 4px;
-  font-size: 14px;
+  font-size: 10px;
   font-family: 'Open Sans', sans-serif;
+  text-align: justify;
   color: #8e8d8a;
 }
 
+.technologies {
+  width: 240px;
+}
 
 

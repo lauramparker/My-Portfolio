@@ -5,8 +5,8 @@ import "./style.css";
 
 function Header() {
     return (
-        <Navbar bg='light' expand='large'>
-            <Navbar.Brand href="#home">Laura M. Parker</Navbar.Brand>
+        <Navbar style={{ backgroundColor: '#e98074' }} expand='large'>
+            <Navbar.Brand href="#home" style={{ color: 'white' }}>Laura M. Parker</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">

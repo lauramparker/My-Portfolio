@@ -2,23 +2,16 @@
     {
         "title": "Travel Journal",
         "image": "https://lauramparker.github.io/My-Portfolio/images/Bucket%20List.png",
-        "description": "Travel Journal is a Node CRUD application with a MySQL database, Elasticsearch dynamic search engine, and Passport user authentication. Handlebars template engine and jQuery support the front-end rendering. The application allows a user to create, edit and dynamically search travel reviews.",
-        "technologies": ["Express/Node.js", "SQL", "Passport (User Authentication)", "ElasticSearch", "Handlebars template engine"],
+        "description": "Travel Journal is a Node.js application with a MySQL database, Elasticsearch search engine, and Passport authentication. Handlebars and jQuery support the front-end rendering. The application allows users to create, edit and dynamically search travel reviews.",
+        "technologies": ["Express/Node.js", "MySQL", "Passport", "ElasticSearch", "Handlebars"],
         "repo": "https://github.com/lauramparker/Travel-Journal",
         "deploy": "https://travel-journal-lmp.herokuapp.com/"
     },
-    {
-        "title": "MVC - Hamburger",
-        "image": "https://lauramparker.github.io/My-Portfolio/images/MVC%20Hamburger.png",
-        "description": "MVC-Hamburger is a Node CRUD application with a MongoDB data schema and Handlebars template engine. This application was my first example of standard model-view-control architecture. It allows a user to create and track a list of favorite burgers.",
-        "technologies": ["Express/Node.js", "MongoDB", "Handlebars template engine"],
-        "repo": "https://github.com/lauramparker/MVC-Hamburger",
-        "deploy": "https://vast-peak-78616.herokuapp.com/"
-    },
+
     {
         "title": "React Weather App",
         "image": "https://lauramparker.github.io/My-Portfolio/images/Weather%20Dashboard.png",
-        "description": "React-Weather-App is a redux-style React application featuring advanced React hooks, providers, react-bootstrap and a third-party API call to OpenWeatherMap API. The application allows a user to view current and forecasted weather data for a searched city (and re-render weather data for previously-searched cities.)",
+        "description": "React-Weather-App is a redux-style React application featuring advanced React hooks, providers, react-bootstrap and data from OpenWeatherMap API. The application allows a user to view current and forecasted weather data for a searched city.",
         "technologies": ["React", "OpenWeatherMap API", "Moment.js"],
         "repo": "https://github.com/lauramparker/React-Weather-App",
         "deploy": "https://my-react-weather-app-lmp.herokuapp.com/"
@@ -26,15 +19,15 @@
     {
         "title": "Garden State",
         "image": "https://lauramparker.github.io/My-Portfolio/images/Workday%20Scheduler.png",
-        "description": "Garden-State is a MERN application featuring React redux, advanced React hooks, providers, MongoDB database, and React-bootstrap. The application allows a user to design gardens with specific dimensions by selecting plants from a database and assigning them to individual plots. Plant spacing is automatically calculated based on the selected plants.",
-        "technologies": ["React", "MongoDB", "Express/Node.js", "AuthO (User Authentication)"],
+        "description": "Garden-State is a MERN application featuring advanced React hooks, providers, MongoDB, and React-bootstrap. Users can design gardens with specific dimensions by selecting plants and assigning them to plots. Plant spacing and recomendations also provided.",
+        "technologies": ["React", "MongoDB", "Express/Node.js", "AuthO"],
         "repo": "https://github.com/lauramparker/Garden-State-LMP",
         "deploy": "https://dashboard.heroku.com/apps/garden-state-lmp"
     },
     {
         "title": "Brewfinder",
         "image": "https://lauramparker.github.io/My-Portfolio/images/Brewfinder%20Load.png",
-        "description": "Brewfinder is a simple JS application that uses Ajax to call a third-party API and retrieve listings of local breweries. Dynamic HTML elements are created using JQuery, and user favorites are stored with local storage.",
+        "description": "Brewfinder is a simple Javascript application that uses Ajax to call a third-party API and retrieve listings of local breweries generated when the user enters a zipcode. Dynamic HTML elements are created using JQuery, and user favorites are stored with local storage.",
         "technologies": ["Javascript", "HTML/CSS", "JQuery", "Ajax"],
         "repo": "https://github.com/lauramparker/New-Brewfinder/",
         "deploy": "https://lauramparker.github.io/New-Brewfinder/"
@@ -42,9 +35,17 @@
     {
         "title": "Budget Tracker",
         "image": "https://lauramparker.github.io/My-Portfolio/images/budgetREADME.png",
-        "description": "Budget-Tracker is a Node.js progressive web application that allows a user to enter budget expenses/income. The application uses a MongoDB database, CRUD routing with Express, and a service-worker to cache views and user entries offline, and syncing the data when the user is online again.",
-        "technologies": ["Express/Node.js", "MongoDB", "IndexDB"],
+        "description": "Budget-Tracker is a Node.js progressive web application that allows a user to enter budget expenses/income. It features MongoDB, Express, and a service-worker to cache views and user entries offline, and syncing the data when the user is online again.",
+        "technologies": ["Express/Node.js", "MongoDB", "IndexedDB"],
         "repo": "https://github.com/lauramparker/budget-tracker",
         "deploy": "https://immense-basin-97081.herokuapp.com/"
+    },
+    {
+        "title": "MVC - Hamburger",
+        "image": "https://lauramparker.github.io/My-Portfolio/images/MVC%20Hamburger.png",
+        "description": "MVC-Hamburger is a Node CRUD application with a MongoDB data schema and Handlebars template engine. This application was my first example of standard model-view-control architecture. It allows a user to create and track a list of favorite burgers.",
+        "technologies": ["Express/Node.js", "MongoDB", "Handlebars"],
+        "repo": "https://github.com/lauramparker/MVC-Hamburger",
+        "deploy": "https://vast-peak-78616.herokuapp.com/"
     }
 ]
