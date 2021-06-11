@@ -7,7 +7,7 @@ function ProjectCard(props) {
             <Card.Title style={{alignSelf: 'center', margin: 'auto', textDecoration: 'bold'}}><h4>{props.title}</h4></Card.Title>
             <Card.Img className='img' variant="top" src={props.image}/>
             <Card.Body>
-                <Card.Text>{props.description}</Card.Text>
+                <Card.Text style={{fontSize: '8'}}>{props.description}</Card.Text>
                 <ListGroup>Technologies Used: {(props.technologies).map(item=> {
                     return(
                         <li key={item}>{item}</li>
