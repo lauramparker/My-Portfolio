@@ -4,13 +4,7 @@
  ![License](https://img.shields.io/badge/LICENSE-MIT-blue)
 
 
->My Portfolio is a React application featuring advanced React hooks, providers, > react-bootstrap and a third-party API call to OpenWeatherMap API.  The application allows a user to:
-
-- Search for a City in the Search Box
-- See the City's Current & Forecasted Weather
-- Retrieve previous searches and related data from the "My Places" list
-
-![weather app demo](https://github.com/lauramparker/React-Weather-App/blob/main/public/My%20Weather%20App.gif)
+>My Portfolio is a simple React application with two pages containing relevant professional material. About Me: presents my bio, notable skills, resume, & contact information.  Portfolio: sample projects from my technical portfolio.
 
 ## Technologies Used
 - [ReactJS](https://reactjs.org)
