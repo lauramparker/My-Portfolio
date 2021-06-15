@@ -13,10 +13,11 @@
 
 ## Installation
 
-To set-up the development environment, clone the repository found at https://github.com/lauramparker/React-Weather-App. The following npm packages are required: 
+To set-up the development environment, clone the repository found at https://github.com/lauramparker/My-Portfolio. The following npm packages are required: 
 ```
 - npm i react 
 - npm i react-dom
+- npm i react-gif-player
 ```
 
 To run the application locally, enter npm start. The app will build and automatically open on localhost port 3000.
