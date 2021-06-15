@@ -12,7 +12,7 @@ function About() {
                 <Row>
                     <Col>
                         <div>
-                            <img src="https://lauramparker.github.io/My-Portfolio/images/LMPheadshot.png" id="headshot" alt="Laura M. Parker headshot" ></img>
+                            <img src= "https://raw.githubusercontent.com/lauramparker/My-Portfolio/main/public/images/LMPheadshot.png" class="headshot" alt="Laura M. Parker headshot" ></img>
                         </div>
                         <div className='paragraph' style={{ width: '80%' }}>
                             <p> I am a mid-career professional based in Columbus, OH with broad experience in both large and small organizations.  I have deep experience as a leader and proven project manager in the learning and develpment industry, working across multiple disciplines (IT, sales & marketing, research, and product management).

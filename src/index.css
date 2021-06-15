@@ -74,7 +74,7 @@ button {
   align-self: center;
 }
 
-#headshot {
+.headshot {
   height: 275px;
   width: 200px;
   float: left;
@@ -113,8 +113,14 @@ button {
   color: #8e8d8a;
 }
 
+.gifs {
+   display: block;
+   max-width: 360px;
+   align-content: center;
+   overflow: hidden; 
+
+}
+
 .technologies {
   width: 240px;
 }
-
-
