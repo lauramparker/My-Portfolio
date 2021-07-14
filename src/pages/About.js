@@ -37,7 +37,7 @@ function About() {
                             <ListGroup variant='flush'>
                                 <ListGroupItem><Link><small>lauramparker78@gmail.com</small></Link></ListGroupItem>
                                 <ListGroupItem><small>(m) 386-747-8362</small></ListGroupItem>
-                                <ListGroupItem><Link><small><a href>https://www.linkedin.com/in/laura-parker-5a3bbb198/</a></small></ Link></ListGroupItem>
+                                <ListGroupItem><Link><small><a href>https://www.linkedin.com/in/laura-m-parker/</a></small></ Link></ListGroupItem>
                                 <ListGroupItem><Link><small><a href>https://github.com/lauramparker</a></small></Link></ListGroupItem>
                                 <ListGroupItem variant='light'><small><strong>Download My Resume</strong></small><br></br>
                                     <a href="https://raw.githubusercontent.com/lauramparker/My-Portfolio/main/public/images/LMP_resume.png" download>
